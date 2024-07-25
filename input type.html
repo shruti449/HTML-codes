@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+    function show(){
+        let ob=document.getElementById("t1")
+        let fname=ob.value
+       alert (fname)
+    }
+    </script>
+</head>
+<body>
+    <input id="t1" name="n1" type="text" placeholder="enter name">
+    <br>
+    <input id="t2" name="n2" type="number" placeholder="enter age">
+    <br>
+    <input id="t3" name="n3" type="email" placeholder="enter email">
+    <br>
+    <input id="t4" name="n4" type="color">
+    <br>
+    <input id="t5" name="n5" type="date">
+    <br>
+    <input type="button" value="click here" onclick="show()">
+    <br>
+    <hr>
+    <label>HTML</label>
+    <input type="checkbox" name="n1" id="c1" checked>
+    <br>
+    <label>CSS</label>
+    <input type="checkbox" name="n2" id="c2">
+    <br>
+    <label>JAVA script</label>
+    <input type="checkbox" name="n3" id="c3" checked>
+    <br>
+    <hr>
+    <label>male</label>
+    <input type="radio" value="male" id="r1" name="gender">
+    <label>female</label>
+    <input type="radio" value="female" id="r2" name="gender">
+</body>
+</html>
